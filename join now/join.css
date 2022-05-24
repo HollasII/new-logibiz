@@ -1,0 +1,41 @@
+main
+{
+    position: relative;
+}
+h1
+{
+    color: #eb1552;
+    text-align: center;
+}
+form
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input
+{
+    background-color: #eb1552;
+    outline: none;
+}
+select
+{
+    width: 300px;
+    background-color: #b3d8b9;
+}
+input[type = text],
+input[type = email],
+input[type = password]
+{
+    width: 300px;
+}
+input[type = submit]
+{
+    background-color: #0e4f1f;
+    color: white;
+}
+input[type = submit]:hover
+{
+    background-color: #b3d8b9;
+    color: #000;
+}
